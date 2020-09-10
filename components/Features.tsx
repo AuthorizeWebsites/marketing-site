@@ -120,7 +120,7 @@ function Item({
   icon,
 }: {
   headerText: string;
-  bodyText: string;
+  bodyText: string | ReactElement;
   icon: ReactElement;
 }) {
   return (
