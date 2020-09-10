@@ -160,7 +160,7 @@ function Hero() {
               <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 You're an author and you need a website. You want it to be
                 beautiful, fast, secure, <strong>and</strong> easy to update.
-                With Authorize, you don't have to choose.
+                With Authorize you don't have to choose.
               </p>
             </div>
           </div>

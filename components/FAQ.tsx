@@ -7,14 +7,14 @@ const items = [
     a: (
       <>
         Nope. I know it's hard to imagine an author site <strong>not</strong>{" "}
-        using Wordpress, but we don't think it's the right tool for the job. So,
-        we don't use it, and that lets us deliver a faster site with and a
-        better experience for you, the author. That being said, we set you up
-        with a&mdash;we think better&mdash;CMS that gives you all the advantages
-        of a Wordpress site. So, don't worry about having to call us up every
-        other day to make content changes. Additionally, we give you a detailed
-        deployment guide if you ever choose to part ways so you can host
-        everything on your own should you want to.
+        using Wordpress, but I don't think Wordpress is the right tool for the
+        job. So, I don't use it, and that lets me deliver a faster site and a
+        better experience for both you and your readers. That being said, I do
+        set you up with a&mdash;I think better&mdash;CMS that gives you all the
+        content editing advantages of a Wordpress site. So, don't worry about
+        having to call me up every other day to make content changes.
+        Additionally, I give you a detailed deployment guide if you ever choose
+        to part ways so you can host everything on your own should you want to.
       </>
     ),
   },
@@ -31,7 +31,7 @@ const items = [
         >
           Next.js
         </a>{" "}
-        which pulls your content from our CMS of choice,{" "}
+        which pulls your content from our headless CMS of choice,{" "}
         <a
           href="https://www.contentful.com/"
           target="_blank"
@@ -41,20 +41,21 @@ const items = [
           Contentful
         </a>
         . The reasons for these choices are a bit technical, but basically,
-        Next.js allows us to serve your website entirely via a CDN making it
+        Next.js allows me to serve your website entirely via a CDN making it
         super fast (way faster than even the fastest Wordpress site), and
-        Contentful allows us to give you an easy web interface through which you
-        can add new books, update text around the site, etc.
+        Contentful allows me to give you an easy web interface through which to
+        add new books, update text around the site, etc.
         <br />
         <br />
-        We went with this tech stack over Wordpress because it gives us some
+        I went with this tech stack over Wordpress because it gives me some
         advantages that just aren't possible with Wordpress. For instance, every
-        Wordpress site requires a server because it generates each pages upon
+        Wordpress site requires a server because it generates each page upon
         request rather than at build time. This just isn't necessary for author
         sites which rarely have content changes and can be rebuilt whenever they
-        do. Using our architecture, your site is built once then deployed to a
+        do. Using my architecture, your site is built once then deployed to a
         CDN where it can be cached all over the globe reducing load times by 3x
-        or more.
+        or more. Then, whenever you make a change, your site is automatically
+        rebuilt and redeployed.
         <br />
         <br />
         If you'd still like to learn more about the nitty gritty technical
@@ -70,7 +71,7 @@ const items = [
     q: "Do you have a demo I can look at?",
     a: (
       <>
-        You can find our live demo{" "}
+        You can find a live demo{" "}
         <a
           href="https://authorize-demo.vercel.app/"
           target="_blank"
@@ -79,9 +80,9 @@ const items = [
         >
           here
         </a>
-        . If you'd like to see what the CMS interface looks like we'd be happy
-        to show you during a consultation (we can't make it public for obvious
-        reasons). You can sign up for a consultation{" "}
+        . If you'd like to see what the CMS interface looks like I'd be happy to
+        show it to you during a consultation (we can't make it public for
+        obvious reasons). You can sign up for a consultation{" "}
         <span className="underline cursor-pointer">
           <OpenConsultationOnClick>here</OpenConsultationOnClick>
         </span>
@@ -90,24 +91,25 @@ const items = [
     ),
   },
   {
-    q: "What does custom(ish) really mean?",
+    q: "What does custom-ish really mean?",
     a: (
       <>
-        Put simply, it means we use tools that allow us to build completely
-        custom sites but we restrict the amount of customization we do down to
-        the things that we think are actually worth customizing. So, for
-        instance, we use a custom color pallete for each site to match each
-        author's individual brand, but we standardize the layout of each book
-        page because book pages are overwhelmingly just carbon copies of each
-        other and by standardizing them we can let you, the author, add books on
-        your own rather than having to call us up every time you publish
-        something new.
+        Put simply, it means I use tools that allow me to build completely
+        custom sites but I restrict the amount of customization I do down to the
+        things that I think are actually worth customizing. So, for instance, I
+        use a custom color pallete for each site to match each author's
+        individual brand, but I standardize the layout of each book page because
+        book pages are overwhelmingly just carbon copies of each other and by
+        standardizing them I can let you, the author, add books on your own
+        rather than having to call me up every time you publish something new.
+        In fact, because of this decision you can have as many books as youd
+        like. Gone are the days of "5 book pages then $10 for each extra book".
         <br />
         <br />
         Importantly, this is only a design decision. We are completely capable
-        of building out super custom features should you want or need them
-        though that obviously costs a bit more. At the end of the day,
-        custom(ish) is how we balance pricing and features.
+        of building out super custom features should you want or need them.
+        However, that obviously costs a bit more. At the end of the day,
+        custom-ish is how we balance pricing and features.
       </>
     ),
   },
@@ -117,11 +119,12 @@ const items = [
       <>
         I'm hesitant to put anything here because, from my point of view, there
         just isn't a catch. However, there is a trade-off. Authorize sites are
-        designed to be populated by the author not extended. What that means is
-        you can add new books and series to your hearts content, but you can't
-        go in and change specific book pages on your own (without getting into
-        the code). If you think that having that level of absolute control is a
-        requirement for you, Authorize may just not be the right fit for you.
+        designed to be populated by the author but not extended by the author.
+        What that means is you can add new books and series to your hearts
+        content, but you can't go in and change specific book pages on your own
+        (without getting into the code). If having that extreme a level of
+        control is a requirement for you, Authorize may just not be the right
+        fit for you.
       </>
     ),
   },

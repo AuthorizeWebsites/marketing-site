@@ -19,8 +19,22 @@ const items = [
       </svg>
     ),
     headerText: "Modern CMS",
-    bodyText:
-      "We set you up with CMS that lets you add new books and series and change page content on your about and landing pages. This means you won't have to come back every time you need to add content to your site.",
+    bodyText: (
+      <>
+        Authorize sets you up with modern{" "}
+        <a
+          href="https://en.wikipedia.org/wiki/Headless_content_management_system"
+          target="_blank"
+          rel="noopener"
+          className="underline"
+        >
+          headless CMS
+        </a>{" "}
+        that lets you change page content on any or all of your one-off pages
+        and add new books and series completely on your own. This means you
+        won't have to come back every time you need to add content to your site.
+      </>
+    ),
   },
   {
     icon: (
@@ -39,8 +53,22 @@ const items = [
       </svg>
     ),
     headerText: "All Static Architecture",
-    bodyText:
-      "By building your site completely statically we can host it directly on a CDN rather than a web server. This means 3x faster load times and 10x lower hosting costs. It's pretty awesome.",
+    bodyText: (
+      <>
+        Authorize sites are completely{" "}
+        <a
+          href="https://en.wikipedia.org/wiki/Static_web_page"
+          target="_blank"
+          rel="noopener"
+          className="underline"
+        >
+          static
+        </a>{" "}
+        allowing them to be hosted directly on a CDN rather than a web server.
+        This means 3x faster load times and 10x lower hosting costs. It's pretty
+        awesome.
+      </>
+    ),
   },
   {
     icon: (
@@ -59,9 +87,9 @@ const items = [
         />
       </svg>
     ),
-    headerText: "Custom(ish)",
+    headerText: "Custom-ish Design",
     bodyText:
-      "Because we actually write the code for each website we can do all sorts of custom designs that your average Wordpress them never could, but we're careful to standardize what needn't be custom to reduce upkeep costs. We call this balance \"custom(ish)\".",
+      "Because Authorize sites don't use any premade themes they can have all sorts of custom designs that your average Wordpress theme just never could, but Authorize sites are designed to standardize what needn't be custom to reduce upkeep costs. We call this balance \"custom-ish\" design.",
   },
   {
     icon: (
@@ -82,7 +110,7 @@ const items = [
     ),
     headerText: "Fast Turn Around",
     bodyText:
-      "You might think custom means slow development time. You'd be wrong. Because every site we make starts with the same scaffolding code we can go from customer order to live site in less than a week.",
+      "You might think custom means slow development time. You'd be wrong. Every Authorize site starts with the same scaffolding code allowing them to go from customer order to live in less than a week.",
   },
 ];
 
@@ -123,8 +151,8 @@ function Features() {
             Features
           </h3>
           <p className="max-w-2xl mt-4 text-xl leading-7 text-white lg:mx-auto">
-            We build your site differently, and that has some advantages. Here's
-            why you should go with us over the other guy.
+            Authorize sites are built differently, and that has some advantages.
+            Here's why you should go with Authorize over the other guys.
           </p>
         </div>
         <div className="mt-10">

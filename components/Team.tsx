@@ -13,9 +13,9 @@ function Team() {
               lone wolf has some advantages. For instance, every line of code on
               your site will be written by the same guy you call for
               support&mdash;me, and while being a sole proprietar means my
-              throughput is limited it also means when I give you my word about
-              a deadline you can hold me personally responsible. No more blaming
-              Jim from down the hall.
+              throughput is limited, it also means that when I give you my word
+              on a deadline you can hold me personally responsible. No more
+              blaming Jim from down the hall.
             </p>
           </div>
           <ul className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">

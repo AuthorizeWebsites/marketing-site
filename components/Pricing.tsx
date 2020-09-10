@@ -12,9 +12,11 @@ function Pricing() {
             <p className="text-xl leading-7 text-white">
               Pricing comes in two parts. To build your site we charge an up
               front fee. Then, if you want us to handle your hosting and provide
-              continued support we charge a reasonable monthly fee. The prices
-              below are just estimates. You can cancel at any time and get all
-              the code and a guide on how to host it all yourself.
+              continued support, we charge a reasonable monthly fee. Now, the
+              prices below are just estimates. Every Authorize client gets an
+              itemized quote breaking down and justifying every charge. So,
+              you'll know exactly what you're getting and where your money is
+              going before you fork over a penny.
             </p>
           </div>
         </div>
@@ -38,8 +40,8 @@ function Pricing() {
                     $500
                   </div>
                   <p className="mt-5 text-lg leading-7 text-gray-500">
-                    We'll set up your new site and teach you how it all works.
-                    So, you can make changes with confidence.
+                    We'll set up your new site and teach you how it all works so
+                    you can make changes with confidence.
                   </p>
                 </div>
                 <div className="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-50 sm:p-10 sm:pt-6">
@@ -61,7 +63,7 @@ function Pricing() {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        You get a solid custom(ish) website.
+                        You get a solid custom-ish website.
                       </p>
                     </li>
                     <li className="flex items-start">
@@ -134,8 +136,8 @@ function Pricing() {
                     </span>
                   </div>
                   <p className="mt-5 text-lg leading-7 text-gray-500">
-                    Let us handle day-to-day upkeep so you can focus on what's
-                    important, writing.
+                    Let Authorize handle day-to-day upkeep so you can focus on
+                    what's important, writing.
                   </p>
                 </div>
                 <div className="flex flex-col justify-between flex-1 px-6 pt-6 pb-8 space-y-6 bg-gray-50 sm:p-10 sm:pt-6">
@@ -177,7 +179,7 @@ function Pricing() {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        You get 2 hours of free support{" "}
+                        You get 2 hours of free tech support{" "}
                         <strong>every month</strong>.
                       </p>
                     </li>
@@ -218,7 +220,8 @@ function Pricing() {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        You get free updates as we improve our templates.
+                        You'll get free updates as we improve our scaffolding
+                        code.
                       </p>
                     </li>
                   </ul>
