@@ -21,7 +21,7 @@ const items = [
     headerText: "Modern CMS",
     bodyText: (
       <>
-        Authorize sets you up with modern{" "}
+        Authorize sets you up with a modern{" "}
         <a
           href="https://en.wikipedia.org/wiki/Headless_content_management_system"
           target="_blank"
