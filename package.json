@@ -10,10 +10,13 @@
     "@sendgrid/mail": "^7.2.5",
     "@tailwindcss/ui": "^0.6.0",
     "@tailwindui/react": "^0.1.1",
+    "@types/recharts": "^1.8.15",
     "autoprefixer": "^9.8.6",
     "next": "latest",
+    "performance-now": "^2.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "recharts": "^1.8.5"
   },
   "devDependencies": {
     "@types/node": "^14.6.4",
