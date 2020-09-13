@@ -173,7 +173,7 @@ function Hero() {
           <div className="relative max-w-screen-xl px-4 pb-24 mx-auto sm:px-6">
             <div className="relative">
               <img
-                className="relative w-auto h-auto rounded-md shadow-2xl sm:rounded-lg"
+                className="relative w-full h-auto rounded-md shadow-2xl sm:rounded-lg"
                 src="/screenshot.png"
                 alt="App screenshot"
                 height={970}
