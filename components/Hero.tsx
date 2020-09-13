@@ -178,7 +178,7 @@ function Hero() {
                 alt="App screenshot"
               />
               <a
-                href="https://authorize-demo.alexbruns.dev/"
+                href="https://demo.authorizewebsites.com"
                 target="_blank"
                 rel="noopener"
                 className="focus:outline-none"

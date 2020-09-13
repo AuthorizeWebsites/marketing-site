@@ -526,6 +526,9 @@ const revenue5yBackLoad = data5y.map(
 function BusinessPlan() {
   return (
     <div className="px-4 py-16 mx-auto prose-sm sm:max-w-5xl sm:prose">
+      <button className="fixed w-full h-full bg-gray-500 max-w-12 max-h-12 top-4 left-4">
+        <img src="/logo.png" className="max-w-full max-h-full" />
+      </button>
       <h1>Authorize Business Plan</h1>
       <h2>Table of Contents</h2>
       <ul className="list-disc list-inside sm:list-none">
