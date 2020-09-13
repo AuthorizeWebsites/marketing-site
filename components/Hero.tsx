@@ -170,12 +170,30 @@ function Hero() {
             <div className="flex-1" />
             <div className="flex-1 w-full bg-gray-800" />
           </div>
-          <div className="max-w-screen-xl px-4 pb-24 mx-auto sm:px-6">
-            <img
-              className="relative rounded-lg shadow-2xl"
-              src="/screenshot.png"
-              alt="App screenshot"
-            />
+          <div className="relative max-w-screen-xl px-4 pb-24 mx-auto sm:px-6">
+            <div className="relative">
+              <img
+                className="relative rounded-md shadow-2xl sm:rounded-lg"
+                src="/screenshot.png"
+                alt="App screenshot"
+              />
+              <a
+                href="https://authorize-demo.alexbruns.dev/"
+                target="_blank"
+                rel="noopener"
+                className="focus:outline-none"
+              >
+                <button className="absolute inset-0 block w-full h-full focus:outline-none">
+                  <div className="flex w-full h-full">
+                    <div className="flex items-center justify-center w-full h-full p-4 text-xl font-extrabold text-transparent transition-all duration-300 ease-out rounded-md sm:rounded-lg sm:text-2xl md:text-6xl hover:text-white hover:bg-opacity-25 hover:bg-black">
+                      <h1 className="max-w-lg tracking-wide uppercase">
+                        Check out the demo site
+                      </h1>
+                    </div>
+                  </div>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

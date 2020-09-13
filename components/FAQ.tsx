@@ -180,7 +180,7 @@ function FAQ() {
           <div className="mt-6 border-t-2 border-gray-200">
             <dl className="space-y-6 divide-y-2 divide-gray-200">
               {items.map((item) => (
-                <Item {...item} />
+                <Item key={item.q} {...item} />
               ))}
             </dl>
           </div>

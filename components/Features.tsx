@@ -157,8 +157,8 @@ function Features() {
         </div>
         <div className="mt-10">
           <ul className="space-y-10 md:grid md:grid-cols-2 md:gap-y-8 md:gap-x-10 md:space-y-0">
-            {items.map((item) => (
-              <Item {...item} />
+            {items.map((item, index) => (
+              <Item key={index} {...item} />
             ))}
           </ul>
         </div>
