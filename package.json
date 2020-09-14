@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "combo": "npm run build && npm run start"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.2.5",

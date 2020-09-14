@@ -187,11 +187,12 @@ function Hero() {
               >
                 <button className="absolute inset-0 block w-full h-full focus:outline-none">
                   <div className="flex w-full h-full">
-                    <div className="flex items-center justify-center w-full h-full p-4 text-xl font-extrabold text-transparent transition-all duration-300 ease-out rounded-md sm:rounded-lg sm:text-2xl md:text-6xl hover:text-white hover:bg-opacity-50 hover:bg-black">
+                    <div className="flex items-center justify-center w-full h-full p-4 text-xl font-extrabold text-transparent transition-all duration-300 ease-out bg-opacity-0 rounded-md sm:rounded-lg sm:text-2xl md:text-6xl hover:text-white hover:bg-opacity-50 hover:bg-black">
                       <h1 className="max-w-lg tracking-wide uppercase">
                         Check out the demo site
                       </h1>
                     </div>
+                    <script> </script>
                   </div>
                 </button>
               </a>
