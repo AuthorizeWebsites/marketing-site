@@ -149,9 +149,16 @@ function Hero() {
             items={items}
           />
           <div className="max-w-screen-xl px-4 mx-auto mt-10 sm:px-6 md:mt-16 lg:mt-20">
-            <div className="text-center">
+            <Transition
+              appear
+              show
+              enter="transition-all transform ease-out duration-300 delay-300"
+              enterFrom="opacity-0 scale-75"
+              enterTo="opacity-100 scale-100"
+              className="text-center"
+            >
               <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                Author websites
+                Websites for authors
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-tl from-orange-400 to-orange-500">
                   without the hassle
@@ -162,7 +169,7 @@ function Hero() {
                 beautiful, fast, secure, <strong>and</strong> easy to update.
                 With Authorize you don't have to choose.
               </p>
-            </div>
+            </Transition>
           </div>
         </div>
         <div className="relative">
@@ -171,7 +178,14 @@ function Hero() {
             <div className="flex-1 w-full bg-gray-800" />
           </div>
           <div className="relative max-w-screen-xl px-4 pb-24 mx-auto sm:px-6">
-            <div className="relative">
+            <Transition
+              appear
+              show
+              enter="duration-300 transform delay-300 transition-all ease-out"
+              enterFrom="opacity-0 translate-y-4"
+              enterTo="opacity-100 translate-y-0"
+              className="relative"
+            >
               <img
                 className="relative w-full h-auto rounded-md shadow-2xl sm:rounded-lg"
                 src="/screenshot.png"
@@ -196,7 +210,7 @@ function Hero() {
                   </div>
                 </button>
               </a>
-            </div>
+            </Transition>
           </div>
         </div>
       </div>

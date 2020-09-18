@@ -527,7 +527,10 @@ function BusinessPlan() {
   return (
     <>
       <Link href="/">
-        <a className="fixed z-50 flex items-center justify-center w-10 h-10 overflow-hidden transition-all duration-300 ease-in-out transform bg-white border border-gray-300 rounded-full shadow-sm opacity-50 hover:opacity-100 hover:shadow-lg hover:scale-110 top-2 left-2 sm:top-4 sm:left-4 hover:border-gray-500">
+        <a
+          style={{ backdropFilter: "blur(5px)" }}
+          className="fixed z-50 flex items-center justify-center w-10 h-10 overflow-hidden transition-all duration-300 ease-in-out transform bg-white bg-opacity-50 border border-gray-200 rounded-full shadow-sm hover:bg-opacity-100 hover:shadow-lg hover:scale-110 top-2 left-2 sm:top-4 sm:left-4 hover:border-gray-300"
+        >
           <img src="/logo.png" className="w-auto h-6 m-0" />
         </a>
       </Link>

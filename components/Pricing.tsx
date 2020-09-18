@@ -130,7 +130,7 @@ function Pricing() {
                     </h3>
                   </div>
                   <div className="flex items-baseline mt-4 text-6xl font-extrabold leading-none">
-                    $50
+                    $25
                     <span className="ml-1 text-2xl font-medium leading-8 text-gray-500">
                       /mo
                     </span>
