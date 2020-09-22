@@ -10,9 +10,9 @@ function Pricing() {
               Pricing
             </h2>
             <p className="text-xl leading-7 text-white">
-              Pricing comes in two parts. To build your site we charge an up
-              front fee. Then, if you want us to handle your hosting and provide
-              continued support, we charge a reasonable monthly fee. Now, the
+              Pricing comes in two parts. To build your site I charge an up
+              front fee. Then, if you want me to handle your hosting and provide
+              continued support, I charge a reasonable monthly fee. Now, the
               prices below are just estimates. Every Authorize client gets an
               itemized quote breaking down and justifying every charge. So,
               you'll know exactly what you're getting and where your money is
@@ -40,7 +40,7 @@ function Pricing() {
                     $1000
                   </div>
                   <p className="mt-5 text-lg leading-7 text-gray-500">
-                    We'll set up your new site and teach you how it all works so
+                    I'll set up your new site and teach you how it all works so
                     you can make changes with confidence.
                   </p>
                 </div>
@@ -83,7 +83,7 @@ function Pricing() {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        We'll migrate over your old site's data if it exists.
+                        I'll migrate over your old site's data if it exists.
                       </p>
                     </li>
                     <li className="flex items-start">
@@ -103,7 +103,7 @@ function Pricing() {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        We'll teach you how to use your new CMS.
+                        I'll teach you how to use your new CMS.
                       </p>
                     </li>
                   </ul>
@@ -200,7 +200,7 @@ function Pricing() {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        We can handle your domain too (not required).
+                        I can handle your domain too (not required).
                       </p>
                     </li>
                     <li className="flex items-start">
@@ -220,8 +220,7 @@ function Pricing() {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        You'll get free updates as we improve our scaffolding
-                        code.
+                        You'll get free updates as I add new features.
                       </p>
                     </li>
                   </ul>
