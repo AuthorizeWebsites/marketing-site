@@ -37,7 +37,7 @@ function Pricing() {
                     </h3>
                   </div>
                   <div className="flex items-baseline mt-4 text-6xl font-extrabold leading-none">
-                    $500
+                    $1000
                   </div>
                   <p className="mt-5 text-lg leading-7 text-gray-500">
                     We'll set up your new site and teach you how it all works so
